@@ -1,0 +1,16 @@
+Html
+Con interno personaggio con different parti del corpo 
+Sezione con title nickname
+Dentro different div con classi in css con posizioni fisse / relative per spostare parti del corpo 
+Fare algoritmo dove cambia in maniera random delle imagini 
+
+Top Navbar with the following buttons (some dummy): home, generate random composition, Pre-done compositions, Save composition 
+
+Background of some type 
+
+Big Div character in the center
+
+On the side div Slidebars for: hair, head, arms, torso, legs 
+
+
+
