@@ -1,0 +1,36 @@
+#navBarList{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    background-color: aquamarine;
+}
+
+#characterDiv{
+    position:relative;
+    display: flex;
+    background:black;
+    width:400px;
+    height: 600px;
+    top: 100px;
+    left:30%;
+}
+
+#sliderContainer{
+    position: relative;
+    display:flex; 
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    left: 130%;
+
+}
+
+#sliderText{
+    position: relative;
+    display:flex; 
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    left: 70%;
+}
