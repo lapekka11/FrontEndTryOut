@@ -6,13 +6,16 @@
 
 <body>
 
-
+<!--Link che risetta tutti gli slider e il personaggio alla sua forma base-->
 <div id="navBarDiv">
   <p><a href = "home.html"> RESET</a></p>
 </div>
 
+<!--Div generale che contiene il personaggio e gli slider-->
 <div id="characterDiv">
     
+<!--div che contiene tutti gli slider. I valori per head, eye e torso sono determinati dal numero di immagini disponibili. 
+Per eye e outift colour i valori sono 1-360 perche il filtro utilizzato (hue-rotate) acceta solo valori in quel range-->
     <div id="sliderContainer">
   <input type="range" min="1" max="7" value="1" class="slider" id="headSlider">
   <input type="range" min="1" max="11" value="1" class="slider" id="eyeSlider">
@@ -20,6 +23,8 @@
   <input type="range" min="1" max="360" value="1" class="slider" id="eyeColour">
   <input type="range" min="1" max="360" value="1" class="slider" id="outfitColour">
     </div>
+
+<!--Div per il testo slider-->
     <div id="sliderText">
         <p id="headText">Head: 1</p>
         <p id="eyesText">Eyes: 1</p>
@@ -28,7 +33,11 @@
         <p id="outfitColourText">Outfit RGB: 1</p>
     </div>
 
+
+<!--Div subcategorizzato per facilitare il movimento del personaggio. Contiene tutte le parti modulari.-->
     <div id="characterElement">
+
+      <!--Div per la testa, contiene div separati per bocca e occhi, facilitando lo spostamento-->
       <div id="head">
           <img id= "headImg" src="images/head1.png">
         <div id="eyes">
@@ -39,40 +48,48 @@
         </div>
       </div>
 
+      <!--Div per la parte inferiore del corpo (braccia, torso, gambe)-->
       <div id="outfitdiv">
+
+      <!--Div per il torso-->
         <div id="torso">
           <img id = "torsoimg" src = "images/torso1.png">
         </div>
+
+        <!--Div braccio sinistro, contiene parte superiore, avanbraccio e mano destra-->
         <div id="arm1">
           <img id="arm1Div" src="images/arm1.png">
           <img id="forearm1Div" src="images/forearm1.png">
           <img id="hand1Div" src ="images/hand2.png">
-
         </div>
+
+        <!--Div braccio sinistro, contiene parte superior, avanbraccio e mano sinistro-->
         <div id="arm2">
            <img id="arm2Div" src="images/arm2.png">
            <img id="forearm2Div" src="images/forearm2.png">
            <img id="hand2Div" src="images/hand2.png">
         </div>
+
+        <!--Div gamba destra, contiene parte superiore, inferiore e scarpa-->
         <div id="leg1">
           <img id="lowerLeg1" src="images/lowerLeg1.png">
            <img id="thigh1" src="images/thigh2.png">
            <img id= "foot1"src="images/foot1.png">
-         
         </div>
+
+        <!--div gamba sinistra, contiene parte superiore, inferiore e scarpa-->
         <div id="leg2">
           <img id="lowerLeg2" src="images/lowerLeg2.png">
           <img id="thigh2" src="images/thigh1.png">
           <img id="foot2" src="images/foot2.png">
         </div>
-      
       </div>
     </div>
 </div>
 
 
     
-
+  <!--Linea per importo dello script JS che mantiene gli slider e i cambi dinamici del personaggio-->
   <script type="text/javascript" src="script.js"></script>
 
 </body>
