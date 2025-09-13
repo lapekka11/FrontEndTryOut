@@ -8,68 +8,63 @@
 
 
 <div id="navBarDiv">
-<ul id="navBarList">
-  <li><a href="home.html">Home</a></li>
-  <li>Random Gen</li>
-  <li>Download</li>
-</ul> 
+  <p><a href = "home.html"> RESET</a></p>
 </div>
 
 <div id="characterDiv">
-    <p>caterpilla</p>
+    
     <div id="sliderContainer">
-  <input type="range" min="1" max="100" value="1" class="slider" id="headSlider">
-  <input type="range" min="1" max="100" value="1" class="slider" id="eyeSlider">
-  <input type="range" min="1" max="100" value="1" class="slider" id="torsoSlider">
-  <input type="range" min="1" max="100" value="1" class="slider" id="EyeColour">
-  <input type="range" min="1" max="100" value="1" class="slider" id="OutfitColour">
+  <input type="range" min="1" max="7" value="1" class="slider" id="headSlider">
+  <input type="range" min="1" max="11" value="1" class="slider" id="eyeSlider">
+  <input type="range" min="1" max="6" value="1" class="slider" id="torsoSlider">
+  <input type="range" min="1" max="360" value="1" class="slider" id="eyeColour">
+  <input type="range" min="1" max="360" value="1" class="slider" id="outfitColour">
     </div>
     <div id="sliderText">
         <p id="headText">Head: 1</p>
         <p id="eyesText">Eyes: 1</p>
-        <p id="mouthText">Mouth: 1</p>
         <p id="torsoText">Torso: 1</p>
-        <p id="armText">Arms: 1</p>
-        <p id="legsText">Legs: 1</p>
-        <p id="footText">Feet: 1</p>
+        <p id="eyeColourText">Eye RGB: 1</p>
+        <p id="outfitColourText">Outfit RGB: 1</p>
     </div>
 
     <div id="characterElement">
-      <div id="generalHeadDiv">
-        <div id="head">
-          <img src="images/head1.png">
-        </div>
+      <div id="head">
+          <img id= "headImg" src="images/head1.png">
         <div id="eyes">
-          <img src="images/eye1.png">
+          <img id="eyeImg" src="images/eye1.png">
+        </div>
+        <div id="mouth">
+          <img src ="images/mouth.png">
         </div>
       </div>
 
       <div id="outfitdiv">
         <div id="torso">
-          <img src = "images/torso1.png">
+          <img id = "torsoimg" src = "images/torso1.png">
         </div>
-        <div id="arms">
-          <img src="images/arm1.png">
-          <img src="images/arm2.png">
+        <div id="arm1">
+          <img id="arm1Div" src="images/arm1.png">
+          <img id="forearm1Div" src="images/forearm1.png">
+          <img id="hand1Div" src ="images/hand2.png">
 
         </div>
-        <div id="forearms">
-          <img src="images/forearm1.png">
-          <img src="images/forearm2.png">
+        <div id="arm2">
+           <img id="arm2Div" src="images/arm2.png">
+           <img id="forearm2Div" src="images/forearm2.png">
+           <img id="hand2Div" src="images/hand2.png">
         </div>
-        <div id="lowerLegs">
-          <img src="images/lowerLeg1.png">
-          <img src="images/lowerLeg2.png">
+        <div id="leg1">
+          <img id="lowerLeg1" src="images/lowerLeg1.png">
+           <img id="thigh1" src="images/thigh2.png">
+           <img id= "foot1"src="images/foot1.png">
+         
         </div>
-        <div id="thighs">
-          <img src="images/thigh1.png">
-          <img src="images/thigh2.png">
+        <div id="leg2">
+          <img id="lowerLeg2" src="images/lowerLeg2.png">
+          <img id="thigh2" src="images/thigh1.png">
+          <img id="foot2" src="images/foot2.png">
         </div>
-        <div id="feet">
-          <img src="images/foot1.png">
-          <img src="images/foot2.png">
-        </div>
-
       
       </div>
     </div>
